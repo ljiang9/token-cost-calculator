@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "currency": "USD",
+    "unit": "per 1M tokens",
+    "updated": "2026-10",
+    "note": "价格为快照，仅供估算参考，实际费用以各模型官方最新定价为准。"
+  },
+  "models": [
+    {
+      "id": "gpt-4o-mini",
+      "provider": "OpenAI",
+      "input_per_1m": 0.15,
+      "output_per_1m": 0.6
+    },
+    {
+      "id": "gpt-4o",
+      "provider": "OpenAI",
+      "input_per_1m": 2.5,
+      "output_per_1m": 10.0
+    },
+    {
+      "id": "gpt-3.5-turbo",
+      "provider": "OpenAI",
+      "input_per_1m": 0.5,
+      "output_per_1m": 1.5
+    },
+    {
+      "id": "claude-3-5-sonnet",
+      "provider": "Anthropic",
+      "input_per_1m": 3.0,
+      "output_per_1m": 15.0
+    },
+    {
+      "id": "claude-3-haiku",
+      "provider": "Anthropic",
+      "input_per_1m": 0.25,
+      "output_per_1m": 1.25
+    },
+    {
+      "id": "deepseek-chat",
+      "provider": "DeepSeek",
+      "input_per_1m": 0.27,
+      "output_per_1m": 1.1
+    },
+    {
+      "id": "qwen-plus",
+      "provider": "Alibaba Qwen",
+      "input_per_1m": 0.4,
+      "output_per_1m": 1.2
+    }
+  ]
+}
